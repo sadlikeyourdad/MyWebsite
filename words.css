@@ -8,3 +8,8 @@ body {
 .note {
 	font-style: italic;
 }
+@media (prefers-color-scheme: dark){
+		body {color:#fff;background:#000}
+		a:link {color:#cdf}
+		a:hover, a:visited:hover {color:#def}
+		a:visited {color:#dcf}
