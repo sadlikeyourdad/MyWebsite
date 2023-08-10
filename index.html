@@ -1,44 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Construction Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="construction-logo.jpg">
+    <meta name="theme-color" content="#ff5555">
+    <title>Construction Work Company</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>My Construction Company</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
-
-    <section id="portfolio">
-        <h2>Our Portfolio</h2>
-        <!-- Add descriptions of your projects here -->
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <!-- You can add your images here -->
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <!-- Add contact form or details here -->
-    </section>
-
-    <footer>
-        <p>© 2023 My Construction Company. All Rights Reserved.</p>
-    </footer>
-
-    <script src="js/main.js"></script>
+    <div id="main-container">
+        <nav class="navbar">
+            <div class="navbar__inner">
+                <a class="navbar__brand" href="/"><b class="navbar__title">Construction Work Company</b></a>
+                <div class="navbar__items navbar__items--right">
+                    <a class="navbar__item navbar__link" href="/">HOME</a>
+                    <a class="navbar__item navbar__link" href="/about">ABOUT US</a>
+                    <a class="navbar__item navbar__link" href="/pricing">PRICING</a>
+                    <a class="navbar__item navbar__link" href="/gallery">GALLERY</a>
+                    <a class="navbar__item navbar__link" href="/contact">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+        <div class="main-wrapper">
+            <main>
+                <!-- Content goes here -->
+            </main>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row footer__links">
+                    <div class="col footer__col">
+                        <div class="footer__title">Website</div>
+                        <ul class="footer__items">
+                            <li class="footer__item"><a class="footer__link-item" href="/">Home</a></li>
+                            <li class="footer__item"><a class="footer__link-item" href="/about">About Us</a></li>
+                            <li class="footer__item"><a class="footer__link-item" href="/pricing">Pricing</a></li>
+                            <li class="footer__item"><a class="footer__link-item" href="/gallery">Gallery</a></li>
+                            <li class="footer__item"><a class="footer__link-item" href="/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- You can add more footer columns if needed -->
+                </div>
+                <div class="footer__bottom text--center">
+                    <div class="footer__copyright">Copyright © 2023 Construction Work Company</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
