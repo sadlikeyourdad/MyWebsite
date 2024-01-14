@@ -20588,7 +20588,8 @@ div.pagination li.current span {
 }
 .body-xs .img-toLeft,
 .body-xs .img-toRight {
-  width: 100%;
+  width: auto;
+  height: auto;
 }
 .body-sm .img-toLeft,
 .body-sm .img-toRight {
