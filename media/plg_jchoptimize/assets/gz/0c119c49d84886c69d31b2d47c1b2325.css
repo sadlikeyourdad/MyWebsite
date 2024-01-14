@@ -22931,7 +22931,7 @@ li.dropdown > ul li > a {
 }
 .body-xs header .navbar-default .logo img {
   max-width: 70%;
-  height: auto;
+  height: 70%;
 }
 .block175 .navbar-custom .nav.menu > li.dropdown > ul {
   background-color: rgba(217, 217, 217, 1);
