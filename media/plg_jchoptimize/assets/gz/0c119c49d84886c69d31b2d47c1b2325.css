@@ -22554,10 +22554,10 @@ h6 strong {
   flex-direction: column;
 }
 .body-xs .block177 > div > div.inner .image {
-  order: 1;
+  order: 2;
 }
 .body-xs .block177 > div > div.inner .text {
-  order: 2;
+  order: 1;
 }
 .body-xs .block177 > div > div.inner .image {
   margin-bottom: 15px;
