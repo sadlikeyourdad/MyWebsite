@@ -22539,7 +22539,7 @@ h6 strong {
   background-size: auto;
 }
 .block177 > div > div.inner .image img {
-  height: 100%;
+  height: auto;
 }
 .block177 > div > div.inner .image img {
   object-fit: cover;
