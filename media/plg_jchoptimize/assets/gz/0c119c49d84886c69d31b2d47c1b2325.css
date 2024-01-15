@@ -22939,7 +22939,7 @@ li.dropdown > ul li > a {
   text-align: left;
 }
 .body-xs header .navbar-default .logo img {
-  max-width: 50%; /* Adjust this value as needed */
+  max-width: 60%; /* Adjust this value as needed */
   height: auto;  /* It's usually better to set height to auto to maintain the aspect ratio */
 }
 .block175 .navbar-custom .nav.menu > li.dropdown > ul {
