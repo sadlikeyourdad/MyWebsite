@@ -22939,8 +22939,8 @@ li.dropdown > ul li > a {
   text-align: left;
 }
 .body-xs header .navbar-default .logo img {
-  max-width: 70%;
-  height: 70%;
+  max-width: 50%; /* Adjust this value as needed */
+  height: auto;  /* It's usually better to set height to auto to maintain the aspect ratio */
 }
 .block175 .navbar-custom .nav.menu > li.dropdown > ul {
   background-color: rgba(217, 217, 217, 1);
