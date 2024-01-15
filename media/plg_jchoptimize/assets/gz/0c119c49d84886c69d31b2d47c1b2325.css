@@ -16562,6 +16562,7 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 img.content-image {
   margin-bottom: 30px;
