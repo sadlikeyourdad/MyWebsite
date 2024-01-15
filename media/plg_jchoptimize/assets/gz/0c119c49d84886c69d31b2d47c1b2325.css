@@ -16793,7 +16793,11 @@ ul.dropdown-menu {
   box-shadow: none;
 }
 .navbar-default .navbar-toggle {
-  border-radius: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .align-right .mod-languages {
   float: right;
