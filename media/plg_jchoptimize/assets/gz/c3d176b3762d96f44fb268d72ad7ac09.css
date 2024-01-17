@@ -20617,9 +20617,11 @@ li.dropdown > ul li > a {
 .block188 .btn:focus {
 }
 .block188 > div > div.inner {
+  margin-bottom: 30px;
   padding-top: 30px;
   padding-bottom: 30px;
   position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 .body-xs .block188 > div > div.inner {
 }
